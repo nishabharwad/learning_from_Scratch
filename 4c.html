@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .shadow{
+            background-color:green;
+            color:white;
+            border-style:none;
+            cursor:pointer;
+            box-shadow:4px 4px 4px rgba(0,0,0,0.30);
+            padding-left:20px;
+            padding-right:20px;
+            padding-top:10px;
+            padding-bottom:10px;
+            font-size:large;
+            
+        }
+        .shadow:active{
+            box-shadow:none;
+            margin-left:4px;
+            margin-top:4px;
+        }
+        .one
+        {
+            background-color:green;
+            color:white;
+            border-style:none;
+            cursor:pointer;
+            padding-left:15px;
+            padding-right:15px;
+            padding-top:5px;
+            padding-bottom:5px;
+            font-size:large;
+            margin-left:10px;
+            margin-right:10px;
+            transition:margin 0.40s,padding 0.40s;
+        }
+        .one:hover{
+            padding-left:20px;
+            padding-right:20px;
+            margin-left:0px;
+            margin-right:0px;
+        }
+    </style>
+</head>
+<body>
+    <button class="shadow">Shadow</button>
+    <br><br>
+    <button class="one">one</button>
+    <button class="one">two</button>
+    <button class="one">three</button>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<style>
+  #old
+  {
+    background-color:rgb(188, 16, 16);
+    color:white;
+    border-style:none;
+    border-radius:2px;
+    cursor:pointer;
+    margin-right:8px;
+    margin-left: 30px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition:opacity 0.15s;
+    vertical-align: top;
+   }
+
+   #old:hover{
+    opacity:0.7;
+   }
+   #old:active{
+    opacity:0.5;
+   }
+  .new
+  {
+    border-style:none;
+    background-color:white;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:20px;
+    cursor:pointer;
+    margin-right:8px;
+    vertical-align: top;
+    transition:opacity 0.15s,background-color 0.70s,color 0.70s;
+  }
+
+  .new:hover{
+    opacity:0.6;
+  }
+  .new:active{
+    background-color:rgb(65, 64, 64);
+    color:white;
+  }
+
+
+  #twitter
+  {
+    border-color:rgb(52, 143, 204);
+    border-style:solid;
+    color:rgb(52, 143, 204);
+    border-width:1px;
+    cursor:pointer;
+    border-radius:2px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:9px;
+    padding-bottom:9px;
+    margin-right:8px;
+    vertical-align: top;
+    transition:background-color 0.30s,color 0.30s,opacity 0.30s;
+  }
+
+  #twitter:hover{
+    background-color:rgb(52, 143, 204);
+    color:white;
+  }
+
+  #twitter:active{
+    opacity:0.5;
+  }
+  #x
+  {
+    background-color:rgb(52, 143, 204);
+    border-style:none;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    border-radius:18px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:15px;
+    transition:box-shadow 0.15s,opacity 0.15s;
+    vertical-align: top;
+  }
+
+  #x:hover{
+    box-shadow:2px 2px 20px rgba(0,0,0,0.15);
+  }
+  #x:active{
+    opacity:0.5;
+  }
+  body
+  {
+    background-color:rgb(198, 191, 191);
+  }
+</style>
+
+</head>
+<body>
+<button id="old">
+  SUBSCRIBE
+</button>
+<button class="new">
+  Subscribe
+</button>
+<button id="twitter">
+  JOIN
+</button>
+<button id="x">
+  Tweet 
+</button>
+</body>
+</html>
